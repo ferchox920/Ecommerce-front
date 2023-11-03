@@ -1,0 +1,74 @@
+/* CSS */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background: #f5f5f5; /* Agregué un fondo de color gris claro */
+  padding: 20px; /* Agregué espaciado alrededor del contenido del pie de página */
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduje el espacio entre el logo y el texto */
+}
+
+.footer-logo img {
+  max-width: 100px; /* Limité el ancho máximo de la imagen del logo */
+}
+
+.footer-logo p {
+  color: #383838;
+  font-size: 24px; /* Reduje el tamaño de fuente del texto del logo */
+  font-weight: 700;
+}
+
+.footer-link {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0; /* Eliminé el relleno de la lista */
+}
+
+.footer-link li {
+  cursor: pointer;
+  color: #252525;
+  font-size: 16px; /* Reduje el tamaño de fuente de los elementos de la lista */
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-icons-container {
+  padding: 10px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+  border-radius: 50%; /* Hice que los iconos tengan forma de círculo */
+}
+
+.footer-icons-container img {
+  max-width: 40px; /* Limité el ancho máximo de las imágenes de los iconos */
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Reduje el espacio entre los elementos */
+  width: 100%;
+  margin-top: 20px; /* Cambié el margen superior en lugar de margen inferior */
+  color: #1a1a1a;
+  font-size: 16px; /* Reduje el tamaño de fuente del texto de derechos de autor */
+}
+
+.footer-copyright hr {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  height: 3px;
+  background: #c7c7c7; /* Cambié el color a un fondo gris para el hr */
+}
